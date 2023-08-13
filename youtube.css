@@ -1,6 +1,5 @@
 .thumbnail{
-  width: 300px;
-  display: block;
+  width: 100%;
 }
 .video-title{
   margin-top: 0px;
@@ -10,10 +9,7 @@
   margin-bottom: 12px;
 }
 .video-preview1{
-  width: 300px;
-  display: inline-block;
-  margin-right: 10px;
-  vertical-align: top;
+
 }
 .video-preview2{
   display: inline-block;
@@ -22,13 +18,20 @@
   display: block;
   margin-bottom: 10px;
 }
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px ;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
 .channel-pic{
-  display: inline-block;
-  width: 50px;
   vertical-align: top;
 }
 .video-info{
-  display: inline-block;
   width: 200px;
 }
 .profile-pic{
@@ -49,3 +52,4 @@ p{
 .video-author{
   margin-bottom: 4px;
 }
+
